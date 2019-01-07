@@ -4,11 +4,17 @@
     overflow: hidden;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    background: #1a1a1a;
+}
+
 .game-container {
     background: url(../../tex/wall.svg) repeat;
     padding: 32px 32px;
     width: fit-content;
-    height: 352px;
+    height: 320px;
     margin: auto;
 }
 

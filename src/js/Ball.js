@@ -31,7 +31,7 @@ export default class Ball extends Texture {
         this.props = {
             speedX: RNG(3.1, 4, 2) + speedXCoef,
             speedY: RNG(3.3, 3.8, 2) + speedYCoef,
-            x: RNG(100, 270),
+            x: RNG(100, 230),
             y: RNG(140, 210)
         };
         if (RNG(0, 1)) {
